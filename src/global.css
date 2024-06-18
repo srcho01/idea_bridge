@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* Colors */
+  --color-white: #fff;
+  --color-black: #000;
+  --color-gray: #888;
+  --color-mint: #79e5cb;
+  --color-mint-hover: #5cc1a6;
+}

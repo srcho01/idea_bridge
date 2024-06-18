@@ -1,0 +1,68 @@
+.signupContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Center align vertically */
+  min-height: calc(100vh - 200px); /* Adjust height considering padding */
+  padding: 100px 0; /* Maintain 100px padding at top and bottom */
+  background-color: #f0f0f0;
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.signupForm {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  max-width: 90%; /* Ensure form doesn't exceed 90% of viewport width */
+  margin: 20px 0; /* Add vertical margin to prevent sticking */
+}
+  
+  .signupTitle {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .formGroup {
+    margin-bottom: 1rem;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  .inputField,
+  .selectField {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* padding과 border를 포함한 크기로 계산 */
+  }
+  
+  .selectField {
+    appearance: none; /* 기본 스타일링 제거 */
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z'/%3E%3C/svg%3E");
+    background-position: right 10px center;
+    background-repeat: no-repeat;
+  }
+  
+  .submitButton {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    background-color: var(--color-mint);
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submitButton:hover {
+    background-color: var(--color-mint-hover);
+  }
+  

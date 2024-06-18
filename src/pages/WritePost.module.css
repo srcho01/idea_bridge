@@ -1,0 +1,70 @@
+.container {
+    max-width: 600px;
+    margin: 50px auto 50px auto; /* 위쪽에 20px 간격을 주고, 좌우는 자동으로 가운데 정렬 */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+  .title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .formGroup {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .inputField,
+  .textareaField {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .textareaField {
+    resize: none;
+  }
+  
+  .submitButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: var(--color-mint);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .submitButton:hover {
+    background-color: var(--color-mint-hover);
+  }
+  
+  .squareButton {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    background-color: var(--color-mint);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    flex-shrink: 0;
+  }
+  
+  .squareButton:hover {
+    background-color: var(--color-mint-hover);
+  }
+  

@@ -1,0 +1,76 @@
+.loginContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Center align vertically */
+  min-height: calc(100vh - 200px); /* Adjust height considering padding */
+  padding: 100px 0; /* Maintain 100px padding at top and bottom */
+  background-color: #f0f0f0;
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.loginForm {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  max-width: 90%; /* Ensure form doesn't exceed 90% of viewport width */
+  margin: 20px 0; /* Add vertical margin to prevent sticking */
+}
+  
+  .loginTitle {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .formGroup {
+    margin-bottom: 1rem;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  .inputField {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .submitButton {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: #ffffff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: none; /* 테두리 없애기 */
+  }
+  
+  .submitButton.login {
+    background-color: var(--color-mint);
+    margin-bottom: 3rem;
+    color: #ffffff;
+  }
+  
+  .submitButton.signup {
+    background-color: var(--color-mint);
+    color: #ffffff;
+  }
+  
+  .submitButton.login:hover {
+    background-color: var(--color-mint-hover);
+  }
+  
+  .submitButton.signup:hover {
+    background-color: var(--color-mint-hover);
+  }
+  
+  

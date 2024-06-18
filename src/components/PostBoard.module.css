@@ -1,0 +1,77 @@
+.postContainer {
+    margin: 20px 0px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.postTitle {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+  
+.postEmail {
+    margin-bottom: 5px;
+}
+  
+.postDate {
+    margin-bottom: 10px;
+}
+  
+.postContent {
+    margin-top: 10px;
+}
+
+.body {
+    padding: 20px 0px;
+}
+
+  .tabContainer {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .tabButton {
+    padding: 8px 16px;
+    margin-right: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .tabButtonActive {
+    padding: 8px 16px;
+    margin-right: 10px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .tabButton:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .tabButtonActive:hover {
+    background-color: #0056b3;
+  }
+  
+  .newPostButton {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: var(--color-mint);
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .newPostButton:hover {
+    background-color: var(--color-mint-hover);
+  }

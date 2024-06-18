@@ -1,0 +1,34 @@
+.frame {
+    background-color: var(--color-white);
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 20px;
+    max-height: 90%;
+}
+
+.header {
+    padding-bottom: 30px;
+}
+
+.headContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 10px 10px 0px;
+}
+
+.loginTextButton {
+    display: inline-block;
+    align-self: center;
+    font-family: inherit;
+    font-size: 20px;
+    letter-spacing: 0.05em;
+    cursor: pointer;
+}
+
+.logo {
+    display: inline-block;
+}
+
+.signupButton {
+    margin-left: 1rem; /* 로고와의 간격 조정 */
+}
